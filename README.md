@@ -20,7 +20,7 @@ for withdrawals and deposits and displays the total amount in the bank account. 
 made.
 
 **WARNING**: monthlyTotal() calls super.monthlyTotalAmount(). This Subtracts monthly fee, adds interest. 
-             ** Resets monthly deposits and withdrawals to 0. **
+             **Resets monthly deposits and withdrawals to 0.**
              
  Ensure that the monthlyTotal() is called after the deposits and withdrawls number has been output else it will be reset to 0.
  
